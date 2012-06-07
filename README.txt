@@ -12,8 +12,4 @@
 
 * To alert a PGN log, open a JavaScript scratchpad (Shift+F4 in Firefox), type "pgn()" and run (Ctrl+R).
 
-* "Chess-Stand-Alone" is simply the "index" and "bin.js" files combined and the images turned off. 
-
-  (CPU engine is still separate, though)
-
 * * * *
