@@ -1332,11 +1332,13 @@ function cpu( side,depth, eg ) // eg means end game
       openingB = [ "e7e5", "d7d5", "g8f6", "b8c6", "c7c5", "g7g6", "c7c5", "c7c6", "e7e6", "g7g6" ],
       l = ( sec.charCodeAt(sec.length-1) - ('0').charCodeAt(0)),
       move = whosTurn ? openingW[l] : openingB[l]
-      
-    doClick()
-    doSelect( boardPositionNames.indexOf( move.substr(0,2) ) )
-    doClick()
-    doSelect( boardPositionNames.indexOf( move.substr(2,2) ) ) 
+    
+    setTimeout(function(){
+      doClick()
+      doSelect( boardPositionNames.indexOf( move.substr(0,2) ) )
+      doClick()
+      doSelect( boardPositionNames.indexOf( move.substr(2,2) ) )
+    }, animation_speed+animation_speed/2)
   }
   else
   {
