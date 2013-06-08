@@ -2,7 +2,9 @@
 
 *                  *
 
-* Works in Firefox browser. To start, unzip and open the "index" page.
+* Works in Chrome, Opera or Firefox 18 browser (need to investigate fix for newer Firefox version). 
+
+* To start, unzip and open the "index" page.
 
 * Configure board colors at the top of the index file.
 
