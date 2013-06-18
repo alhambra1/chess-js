@@ -2059,7 +2059,7 @@ if ( logStats.on )
     
     //checks to white
     if (Bam[a].indexOf( wkPos ) != -1) checkWhite.push ( a )
-    if (Bam[a].indexOf(57) != -1 || Bam[a].indexOf(58) != -1 || Bam[a].indexOf(59) != -1) castleCheckWhite.push( 'queenside' )
+    if (Bam[a].indexOf(58) != -1 || Bam[a].indexOf(59) != -1) castleCheckWhite.push( 'queenside' )
     if (Bam[a].indexOf(61) != -1 || Bam[a].indexOf(62) != -1) castleCheckWhite.push( 'kingside' )
   
     a = parseInt(a)
