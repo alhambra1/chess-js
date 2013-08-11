@@ -2,7 +2,7 @@
 
 *                  *
 
-* Works in Chrome, Opera or Firefox 18 browser (need to investigate fix for newer Firefox version). 
+* Works in Firefox, Chrome or Opera browsers. 
 
 * To start, unzip and open the "index" page.
 
